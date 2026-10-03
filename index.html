@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#07070b">
+<title>TAP//PUNCH</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body class="landing">
+<div class="noise"></div><div class="scanlines"></div>
+<header class="topbar"><div class="logo">TAP<span>//</span>PUNCH</div><div class="status-dot"><i></i> ONLINE</div></header>
+<main class="hero">
+  <div class="eyebrow">30 SECOND IMPACT CHALLENGE</div>
+  <h1>TAP<br><span>//</span>PUNCH</h1>
+  <p class="lead">画面を叩け。コンボを繋げ。<br>30秒間の衝撃をランキングに刻め。</p>
+  <div class="menu-grid">
+    <button class="big-btn primary" id="startBtn"><span>START GAME</span><small>30 SEC / SOLO</small></button>
+    <button class="big-btn" id="uploadBtn"><span>画像を登録</span><small>YOUR TARGET</small></button>
+    <button class="big-btn" id="rankBtn"><span>RANKING</span><small>LIVE SCOREBOARD</small></button>
+  </div>
+  <div class="target-preview" id="preview"><div class="crosshair"></div><span>NO TARGET<br>UPLOAD AN IMAGE</span></div>
+</main>
+<input type="file" id="imageInput" accept="image/*" hidden>
+<footer>© TAP//PUNCH — FAN GAME / LOCAL IMAGE MODE</footer>
+<script src="js/main.js"></script>
+</body></html>
